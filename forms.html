@@ -15,7 +15,7 @@
 <fieldset>
     <legend> Create Account:</legend>
      <label for="un1">Email:</label>
-        <input type="text" name="en" id="un1"> <br>
+        <input type="email" name="en" id="un1"> <br>
         <label for="1">Password</label>
         <input type="password" name="mypass" id="1"><br>
        <input type="radio" name="gender" id="g1"> <label for="g1">Femal</label>
@@ -30,9 +30,11 @@
 
     </div>
     <div>
-Age: <input type="number" name="age" id="" >
-
+Age: <input type="number" name="age" id="" min="18" max="60">
     </div>
+    <div>
+    Phone number:<input type="tel" name="" id="" pattern="09[3-8]{1}[0-9]{7}">
+</div>
     <div><input type="radio" name="PRODUCTS" id="f" value="Food">
         <label for="f">Food</label><br>
         <input type="radio" name="PRODUCTS" id="d" value="Drinks">
@@ -40,7 +42,26 @@ Age: <input type="number" name="age" id="" >
         <input type="radio" name="PRODUCTS" id="o" value="others">
         <label for="o">Others</label>
         </div>
-<input type="checkbox" name="" id="">
+    </fieldset>
+<fieldset>
+    <div>
+<input type="checkbox" name="code" id="code" value="Do you have copune">
+<label for="code">Do you have copoune</label>
+<input type="text" name="code" id="">
+</div>
+<br>
+<input type="color" name="fav color" value="#0000fa" id="">
+<Div>
+    <input type="file" accept="video/*" name="" id="" multiple>
+<input type="file" accept="image/*" name="" id="">
+</Div>
+<label for="fav-select">select fav language</label>
+<select name="language" id="fav-select">
+    <option value="HTML">html</option>
+    <option value="css">css</option>
+    <option value="js">java script</option>
+</select>
+
 </fieldset>
 </form>
 </body>
