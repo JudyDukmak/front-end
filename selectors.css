@@ -1,0 +1,28 @@
+#li  .c1{ 
+    background-color: blue; 
+} 
+div .c2{ 
+background-color: aqua; 
+} 
+div .c3{
+background-color: darkgreen;
+}
+p.c3{ 
+    background-color: blueviolet; 
+} 
+.c1{
+    background-color: lawngreen;
+}
+h1 p{ 
+    background-color: rgb(150, 43, 43); 
+} 
+p:hover{ 
+    background-color: rgb(252, 3, 219); 
+    font-size: xx-large; 
+} 
+.menu .sub{ 
+    display: none; 
+} 
+.menu > p:hover + .sub{ 
+display: block; 
+}
